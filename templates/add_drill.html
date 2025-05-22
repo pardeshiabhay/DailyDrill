@@ -1,0 +1,11 @@
+{% extends "layout.html" %} {% block main_content %}
+<form method="POST" class="form">
+  <textarea
+    class="form__input"
+    name="drill"
+    placeholder="Enter your drill"
+    required
+  ></textarea>
+  <button class="form__button" type="submit">Add</button>
+</form>
+{% endblock %}
